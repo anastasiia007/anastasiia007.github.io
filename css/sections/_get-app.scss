@@ -1,0 +1,61 @@
+.app {
+  width: 100%;
+  background-color: $white2;
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+  }
+  &__app--info {
+    width: calc(1150px / 2);
+    padding: 0 15px;
+  }
+
+  &__app--img {
+    width: calc(1150px / 2);
+  }
+  &__title {
+    font-size: 18px;
+    line-height: 0.5;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    position: relative;
+    &:after {
+      position: absolute;
+      content: "";
+      width: 90px;
+      height: 1px;
+      background-color: $tomato;
+      bottom: 0;
+      left: 0;
+    }
+  }
+  &__description {
+    padding-top: 20px;
+    color: $darkGray;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  &__text-1 {
+    padding-bottom: 20px;
+  }
+  &__text-2 {
+    padding-bottom: 20px;
+  }
+  &__text-3 {
+    padding-bottom: 20px;
+  }
+  &__buttons {
+    display: flex;
+    a {
+      padding-right: 15px;
+    }
+  }
+  &__phone {
+    max-width: 520px;
+    height: auto;
+  }
+  &__img {
+  }
+}

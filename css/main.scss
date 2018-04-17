@@ -1,0 +1,18 @@
+//RESET
+@import "./../css/base/_reset.scss";
+
+//BASE
+@import "./../css/base/_base.scss";
+@import "./../css/base/_colors.scss";
+@import "./../css/base/_mixin.scss";
+@import "./../css/base/_slick.scss";
+
+//SECTIONS
+@import "./../css/sections/_header.scss";
+@import "./../css/sections/_service.scss";
+@import "./../css/sections/_get-app.scss";
+@import "./../css/sections/_review.scss";
+@import "./../css/sections/_recipes.scss";
+@import "./../css/sections/_counter.scss";
+@import "./../css/sections/_footer.scss";
+@import "./../css/sections/_media.scss";

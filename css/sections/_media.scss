@@ -1,0 +1,135 @@
+@media (max-width: 1090px) {
+  .services {
+    width: 100%;
+    height: auto;
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+    &__item {
+      padding-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .header__wrapper {
+    flex-wrap: wrap;
+  }
+  .header__nav-wrapper {
+    width: 100%;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__nav-btn {
+    display: flex;
+  }
+
+  .header__nav.header__nav--show {
+    margin-top: 5px;
+  }
+  .header__nav.header__nav--show a {
+    margin-top: 5px;
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 660px) {
+  .count {
+    &__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+    }
+    &__position {
+      padding: 10px 0 10px 0;
+    }
+  }
+  .content__description {
+    font-size: 70px;
+  }
+  .content__title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  .content {
+    &__text {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .overlay__description {
+    font-size: 100%;
+  }
+  .overlay__title {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 730px) {
+  .grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    width: 100%;
+  }
+  .overlay__description {
+    font-size: 100%;
+  }
+  .overlay__title {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 1125px) and (max-width: 1092px) {
+  .app {
+    width: 100%;
+    height: 100%;
+    &__img {
+      padding-top: 50px;
+    }
+    &__buttons {
+      padding-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 1196px) {
+  .app__container {
+    padding-top: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .services__wrapper,
+  .recipes,
+  .app__img {
+    padding-top: 20px;
+  }
+
+  .services__item {
+    padding-bottom: 20px;
+  }
+  .count {
+    padding: 20px;
+  }
+  .reviews__item-decsription {
+    font-size: 19px;
+    color: #fff;
+  }
+  .draggable {
+    height: 385px !important;
+  }
+}
