@@ -41,61 +41,6 @@ img {
      object-fit: cover;
 }
 
-@font-face {
-  font-family: "Lato-Hairline", sans-serif;
-  src: url("./../fonts/Lato-Hairline.woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Lato-HairlineItalic", sans-serif;
-  src: url("./../fonts/Lato-HairlineItalic.woff");
-  font-weight: normal;
-  font-style: italic;
-}
-
-body {
-  min-width: 320px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  background: #fff;
-  overflow-x: hidden;
-}
-
-.section__container {
-  max-width: 1180px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.button-up {
-  border-radius: 50%;
-  color: #f64a37;
-  border: transparent;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  font-size: 45px;
-  opacity: 0;
-  pointer-events: none;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  z-index: 10;
-}
-
-.button-up.is-visible {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.button-up:hover {
-  color: #fd3f7f;
-}
-
 @media (max-width: 1090px) {
   .services {
     width: 100%;
@@ -253,6 +198,61 @@ body {
   .draggable {
     height: 385px !important;
   }
+}
+
+@font-face {
+  font-family: "Lato-Hairline", sans-serif;
+  src: url("./../fonts/Lato-Hairline.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato-HairlineItalic", sans-serif;
+  src: url("./../fonts/Lato-HairlineItalic.woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  min-width: 320px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+.section__container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.button-up {
+  border-radius: 50%;
+  color: #f64a37;
+  border: transparent;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 45px;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+}
+
+.button-up.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.button-up:hover {
+  color: #fd3f7f;
 }
 
 /* Slider */
