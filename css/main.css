@@ -456,7 +456,17 @@ body {
       padding-right: 15px; }
   .app__phone {
     max-width: 520px;
-    height: auto; }
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
 
 .reviews {
   background: url("./../img/bg-next.png") center no-repeat;

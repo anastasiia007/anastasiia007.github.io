@@ -55,7 +55,8 @@
   &__phone {
     max-width: 520px;
     height: auto;
-  }
-  &__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 }
