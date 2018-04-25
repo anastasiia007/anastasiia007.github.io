@@ -7,7 +7,7 @@ $(document).ready(function() {
   });
 
   // Slow scroll from nav item to current section
-  $(".header__nav a").click(function(event) {
+  $(".header__nav a, .content__btn-link").click(function(event) {
     event.preventDefault();
     let id = $(this).attr("href");
     let top = $(id).offset().top;
